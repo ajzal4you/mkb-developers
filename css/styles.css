@@ -17,6 +17,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-align: justify;
 }
 
 .animated {
@@ -34718,4 +34719,217 @@ body.offcanvas-active {
     padding: 6px 50px;
     font-size: .8rem;
     color: white;
+}
+
+.advertise-banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 175px;
+    background-image: url('../images/360x300.jpg');
+}
+
+.advertise-banner p {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.advertise-banner button {
+    margin-top: -15px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-weight: 700;
+    color: white;
+    background: var(--primary);
+}
+
+.agents section {
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    /* gap: 25px; */
+    align-items: flex-start;
+}
+
+.agents section .list {
+    width: 20%;
+}
+
+.agents section .expand-details {
+    width: 40%;
+}
+
+.agents section .photo {
+    height: 500px;
+    width: 400px;
+}
+
+.agents section .photo img {
+    width: 400px;
+    height: 350px;
+    transform: rotate(90deg);
+    border-radius: 5px;
+    margin-top: 35px;
+}
+
+.agents .header {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.agents section .list .agent {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 25px;
+}
+
+.agents section .list .agent .active {
+    border-right: 2px solid blue !important;
+}
+
+.agents section .list .agent .icon img {
+    height: 50px;
+    width: 50px;
+    margin-top: -15px;
+}
+
+
+.agents section .list .agent .role {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: left;
+}
+
+.agents section .expand-details .role-social-media,
+.agents section .expand-details .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.agents section .expand-details .footer {
+    flex-wrap: wrap;
+}
+
+@media (max-width: 420px) {
+
+    .agents section .photo {
+        position: relative !important;
+        margin-left: -125px !important;
+    }
+
+    .agents section .photo img {
+        position: absolute !important;
+        right: 0;
+        bottom: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .agents section {
+        height: max-content;
+        flex-wrap: wrap;
+        margin: 0 5px;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+
+    .agents section .list .agent .role p {
+        font-size: .7rem;
+    }
+
+    .agents section .expand-details .role-social-media {
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom: 3px;
+    }
+
+    .agents section .expand-details .role-social-media .socials {
+        display: flex;
+        gap: 5px;
+    }
+
+    .agents section {
+        padding-left: 55px;
+    }
+
+    .agents section .photo {
+        position: relative !important;
+    }
+
+    .agents section .photo img {
+        position: absolute !important;
+        left: 10%;
+        bottom: 0;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .agents section {
+        gap: 5px;
+    }
+
+    .agents section .list {
+        width: 80%;
+    }
+
+    .agents section .expand-details {
+        width: 80%;
+    }
+
+    .agents section .photo {
+        display: flex;
+        align-items: center;
+        width: 860px;
+        padding: 0;
+        height: 370px;
+        position: relative;
+        /* margin: 0 !important; */
+    }
+
+    .agents section .photo img {
+        height: 250px;
+        position: absolute;
+        bottom: 0;
+        margin: 0 !important;
+    }
+
+    .agents section .expand-details .role-social-media .socials {
+        gap: 7px;
+    }
+}
+
+
+.agents section .expand-details .role-social-media img {
+    height: 20px;
+    margin-top: -25px;
+}
+
+.agents section .expand-details .role-social-media .socials {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 40%;
+}
+
+.agents section .expand-details .contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.agents section .expand-details .footer div {
+    margin-top: -8px;
+}
+
+.agents section .expand-details .footer i {
+    color: var(--primary);
 }
