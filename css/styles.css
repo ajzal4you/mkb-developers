@@ -34964,19 +34964,56 @@ body.offcanvas-active {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
+}
+
+@media (max-width: 450px) {
+
+    .banner-project {
+        background-image: url('/images/1920x1080.jpg');
+        background-size: contain;
+        height: 400px;
+        position: relative;
+    }
+
+    .banner-project .container .left {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        /* background: rgba(139, 195, 74, 50%); */
+        background-color: hsla(87.8, 40.2%, 62.7%, 0.9);
+        padding: 0 15px;
+        /* opacity: .2; */
+    }
+
+    .banner-project .container .left .content {
+        height: 400px;
+        width: fit-content;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+    }
 }
 
 .partners .container .carosel {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+}
+
+.partners .container .carosel img {
+    height: 50px;
 }
 
 
 .listing section .container {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .listing section .container .left {
@@ -34995,6 +35032,7 @@ body.offcanvas-active {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     background: white;
     padding: 35px 15px;
     gap: 10px;
@@ -35004,6 +35042,7 @@ body.offcanvas-active {
     display: flex;
     background: white;
     justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
     padding: 10px 35px;
     margin: 2px 0;
@@ -35022,6 +35061,7 @@ body.offcanvas-active {
 .listing section .container .right .body {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
     background: white;
     padding: 35px 15px;
@@ -35031,6 +35071,7 @@ body.offcanvas-active {
 .listing section .container .right .head {
     display: flex;
     background: white;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     padding: 10px 35px;
