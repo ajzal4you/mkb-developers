@@ -34933,3 +34933,116 @@ body.offcanvas-active {
 .agents section .expand-details .footer i {
     color: var(--primary);
 }
+
+
+.agents .container section .list .agent .icon h6:hover {
+    color: green;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.banner-project {
+    background-image: url('/images/1920x1080.jpg');
+    background-size: contain;
+    height: 400px;
+    position: relative;
+}
+
+.banner-project .container .left {
+    position: absolute;
+    left: 0;
+    width: 50%;
+    /* background: rgba(139, 195, 74, 50%); */
+    background-color: hsla(87.8, 40.2%, 62.7%, 0.9);
+    padding: 0 250px;
+    /* opacity: .2; */
+}
+
+.banner-project .container .left .content {
+    height: 400px;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.partners .container .carosel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.listing section .container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.listing section .container .left {
+    width: 48%;
+}
+
+.listing section .container .right {
+    width: 48%;
+}
+
+.listing section {
+    background: whitesmoke;
+}
+
+.listing section .container .left .body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 35px 15px;
+    gap: 10px;
+}
+
+.listing section .container .left .head {
+    display: flex;
+    background: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 35px;
+    margin: 2px 0;
+}
+
+.listing section .container .left .head p {
+    font-size: .9rem;
+    color: grey;
+}
+
+.listing section .container .left .head.active {
+    background: var(--primary);
+}
+
+
+.listing section .container .right .body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 35px 15px;
+    gap: 10px;
+}
+
+.listing section .container .right .head {
+    display: flex;
+    background: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 35px;
+    margin: 2px 0;
+}
+
+.listing section .container .right .head p {
+    font-size: .9rem;
+    color: grey;
+}
+
+.listing section .container .right .head.active,
+.listing section .container .right .head.active h6 {
+    color: var(--primary);
+}
