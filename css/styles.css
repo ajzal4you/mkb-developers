@@ -35096,7 +35096,8 @@ body.offcanvas-active {
     font-weight: 900;
 }
 
-.story .flex, .mission .flex{
+.story .flex,
+.mission .flex {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -35105,19 +35106,19 @@ body.offcanvas-active {
 }
 
 .story .flex .left,
-.story .flex .right{
+.story .flex .right {
     width: 50%;
 }
 
 
 
-.story .flex .right img{
+.story .flex .right img {
     width: 550px;
     margin-bottom: 15px;
 }
 
 
-.mission .header{
+.mission .header {
     font-size: 3rem;
     font-weight: 900;
 }
@@ -35128,7 +35129,8 @@ body.offcanvas-active {
 }
 
 
-.mission .flex, .vision .flex{
+.mission .flex,
+.vision .flex {
     display: flex;
     justify-content: space-around;
     align-items: center;
