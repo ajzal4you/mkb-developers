@@ -6,6 +6,7 @@
 .story .flex,
 .mission .flex {
     display: flex;
+    flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
     gap: 25px;
@@ -40,7 +41,71 @@
 .vision .flex {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     align-items: center;
     /* gap: 25px; */
     width: 100%;
+}
+
+.vision .header {
+    text-align: end;
+}
+
+.story .flex .left img {
+    width: 550px;
+    margin-bottom: 15px;
+}
+
+.mission .flex p,
+.vision .flex p {
+    text-align: justify;
+    width: 500px;
+}
+
+@media (max-width: 1024px) {
+
+    .story .flex,
+    .mission .flex {
+        flex-wrap: wrap;
+        flex-direction: column;
+
+    }
+
+    .story .flex .left,
+    .story .flex .right {
+        width: 80%;
+    }
+
+    .mission .flex,
+    .vision .flex {
+
+        gap: 25px;
+    }
+
+    .vision .header {
+        text-align: left;
+    }
+}
+
+@media (max-width: 420px) {
+
+    .story .flex,
+    .mission .flex,
+    .vision .flex {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .story .flex .right img,
+    .story .flex .left img {
+        width: 275px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .mission .flex p,
+    .vision .flex p {
+        width: auto;
+    }
 }
