@@ -31,7 +31,7 @@
 
 <body>
     <!-- HEADER -->
-    <header class="header__style-one">
+    <header class="header__style-one" style="height: 100px; background: white; color: black;">
         <!-- NAVBAR -->
         <nav class="navbar navbar-hover navbar-expand-lg navbar-soft navbar-transparent">
             <div class="container">
@@ -49,17 +49,21 @@
                 <div class="collapse navbar-collapse" id="main_nav99">
                     <ul class="navbar-nav mx-auto ">
 
-                        <li class="nav-item"><a class="nav-link" href="index.html"> Home </a></li>
-                        <li class="nav-item"><a class="nav-link" href="about.html"> About Us </a></li>
+                        <li class="nav-item"><a class="nav-link" style="color: black;" href="index.html"> Home </a></li>
+                        <li class="nav-item"><a class="nav-link" style="color: black;" href="about.html"> About Us </a>
+                        </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link active dropdown-toggle" href="#" data-toggle="dropdown"> Projects </a>
+                            <a class="nav-link active dropdown-toggle" href="#" style="color: black;"
+                                data-toggle="dropdown"> Projects </a>
                             <ul class="dropdown-menu dropdown-menu-left animate fade-up">
                                 <li><a class="dropdown-item" href="project.html">Upcoming Projects </a></li>
                                 <li><a class="dropdown-item" href="project.html"> Projects </a></li>
                             </ul>
                         </li>
-                        <li class="nav-item"><a class="nav-link" href="ComingSoon.html"> testimonials </a></li>
-                        <li class="nav-item"><a class="nav-link" href="ComingSoon.html"> Gallery </a></li>
+                        <li class="nav-item"><a class="nav-link" style="color: black;" href="ComingSoon.html">
+                                testimonials </a></li>
+                        <li class="nav-item"><a class="nav-link" style="color: black;" href="ComingSoon.html"> Gallery
+                            </a></li>
                     </ul>
                     <!-- Search bar.// -->
                     <ul class="navbar-nav ">
@@ -98,133 +102,112 @@
         <!-- END NAVBAR -->
     </header>
     <!-- END HEADER -->
-    <!-- CAROUSEL -->
-    <!-- CAROUSEL -->
-    <div class="slider-container">
-        <div class="container-slider-image-full  ">
-            <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
-                <ol class="carousel-indicators d-none">
-                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="carousel-item active banner-max-height">
-                        <img class="d-block w-100" src="images/img-2.jpg" alt="First slide">
-                        <div class="carousel-caption banner__slide-overlay d-flex h-100">
-                            <div class="carousel__content">
-                                <div class="container">
-                                    <div class="row justify-content-center">
-                                        <div class="col-lg-8 col-md-12 col-sm-12 text-center">
-                                            <!-- <div class="slider__content-title ">
-                                                <h2 data-animation="fadeInDown" data-delay=".2s" data-duration="1000ms"
-                                                    class="text-white animated fadeInDown">
-                                                    Lorem ipsum dolor sit amet</h2>
-                                                <p data-animation="fadeInUp" data-delay=".4s" data-duration="1000ms"
-                                                    class="text-white animated fadeInUp">
 
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                                    eiusmod tempor incididunt ut labore et dolore
-                                                </p>
-                                                <a href="#" data-animation="fadeInUp" data-delay=".6s"
-                                                    data-duration="1000ms"
-                                                    class="btn btn-primary text-uppercase animated fadeInUp">
-                                                    contact us
-                                                    <i class="fa fa-angle-right arrow-btn "></i></a>
+    <div class="separate" style="background: transparent; height: 100px;">
 
-                                            </div> -->
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item banner-max-height">
-                        <img class="d-block w-100" src="images/img3.jpg" alt="Second slide">
-                        <div class="carousel-caption banner__slide-overlay d-flex h-100">
-                            <div class="carousel__content">
-                                <div class="container">
-                                    <div class="row justify-content-center">
-                                        <div class="col-lg-8 col-md-12 col-sm-12 text-center">
-                                            <div class="slider__content-title ">
-                                                <h2 data-animation="animated fadeInDown"
-                                                    class="text-white animated fadeInDown">
-                                                    Lorem ipsum dolor sit amet</h2>
-                                                <p data-animation="animated fadeInUp"
-                                                    class="text-white animated fadeInUp ">
-
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                                    eiusmod tempor incididunt ut labore et dolore
-                                                </p>
-                                                <a href="#" class="btn btn-primary text-uppercase animated fadeInUp">
-                                                    contact us
-                                                    <i class="fa fa-angle-right arrow-btn "></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item banner-max-height">
-                        <img class="d-block w-100" src="images/img4.jpg" alt="Third slide">
-                        <div class="carousel-caption banner__slide-overlay d-flex h-100">
-                            <div class="carousel__content">
-                                <div class="container">
-                                    <div class="row justify-content-center">
-                                        <div class="col-lg-8 col-md-12 col-sm-12 text-center">
-                                            <div class="slider__content-title ">
-                                                <h2 data-animation="animated fadeInDown"
-                                                    class="text-white animated fadeInDown">
-                                                    Lorem ipsum dolor sit amet</h2>
-                                                <p data-animation="animated fadeInUp"
-                                                    class="text-white animated fadeInUp ">
-
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                                    eiusmod tempor incididunt ut labore et dolore
-                                                </p>
-                                                <a href="#" class="btn btn-primary text-uppercase animated fadeInUp">
-                                                    contact us
-                                                    <i class="fa fa-angle-right arrow-btn "></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span> -->
-                <span class="carousel-control-nav-prev">
-                    <i class="fa fa-2x fa-angle-left"></i>
-                </span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span> -->
-                <span class="carousel-control-nav-next">
-                    <i class="fa fa-2x fa-angle-right"></i>
-                </span>
-            </a>
-        </div>
     </div>
-
-    <div class="clearfix"></div>
-    <!-- END CAROUSEL -->
-    <!-- END CAROSUEL -->
-
 
     <!-- 
 
-            Rent Advertizing Banner
+    our story
 
-         -->
+ -->
 
+    <div class="container">
+        <main>
+            <div class="story">
+                <p class="header"> Our Story</p>
+                <hr>
+                <div class="flex">
+                    <div class="left">
+                        <p style="text-align: justify;">
+                            As a realtor&#39;s company established in 2015, we are proud to have excelled in our
+                            services in the
+                            real estate field. Our vision is to provide exceptional and reliable services to our
+                            customers,
+                            while we aim to ensure that our clients receive the best possible assistance in their real
+                            estate
+                            needs. We understand the decision to buy or sell a property can be overwhelming, which is
+                            why
+                            we aim to provide a hassle-free experience for all our clients.
+                            At MKB Developers and Promoters, we believe that trustworthiness and dedication are the core
+                            values that enable us to deliver the best to our customers. We strive to establish a
+                            long-lasting
+                            relationship with our clients by providing them a piece of honest and transparent advice
+                            while
+                            respecting their confidentiality and privacy. We believe that our success lies in our
+                            ability to
+                            understand each client&#39;s unique requirements while providing them with customized
+                            solutions.
+                            With a network of realty builders and contractors, MKB Builders serves as an efficient
+                            platform
+                            for clients to choose from. The network consists of renowned builders with exceptional
+                            projects;
+                            well planned and developed using high-grade materials.</p>
+                        <img src="images/img5.jpg" alt="" style="width: 550px; margin-bottom: 15px;">
+
+                        <p>
+                            We understand that buying or selling a property is a significant financial decision, which
+                            is why
+                            we aim to provide our clients with the best possible value for their investment. We believe
+                            our
+                            success lies in our ability to provide our clients with the best possible returns on their
+                            real
+                            estate
+                            investments.</p>
+                        <p>
+                            Our services include buying, selling, and renting properties. We assist our clients in
+                            finding the
+                            perfect property that meets their unique requirements. Whether our clients are looking for a
+                            residential or commercial property, we provide them with a range of options to choose from.
+                            We
+                            understand that every client has a different budget, so we offer properties at varied price
+                            points.
+                        </p>
+                        <p>
+                            In addition to our buying and selling services, we also provide rental services. We
+                            understand
+                            that finding the perfect rental property can be challenging, but we aim to make the process
+                            hassle-free for our clients. We provide our clients with a range of rental properties that
+                            meet
+                            their unique requirements.
+                        </p>
+                    </div>
+                    <div class="right">
+                        <img src="images/img1.jpg" alt="">
+                        <p>
+                            Our team of experts is composed of experienced real estate professionals who are passionate
+                            about delivering exceptional services. We understand the local real estate market and keep
+                            ourselves updated with the latest trends and developments. We leverage our expertise to
+                            provide our clients with the best possible advice on real estate investments.
+                            As a customer-centric company, we believe in putting our clients first. We understand that
+                            every
+                            client has unique needs, which is why we tailor our services to suit their requirements. Our
+                            backend team is dedicated to providing clients with the best property at the best price.
+                            Whether
+                            our clients are buying or selling a property, we ensure that they are well-informed
+                            throughout the
+                            process. We keep our clients updated with the latest information and guide them through
+                            every
+                            step of the transaction.</p>
+                        <p>
+                            MKB Developers believe in transparency and honesty. We provide our clients with all the
+                            necessary information to help them make informed decisions. We have earned the trust through
+                            transparency as we aim to build a long-lasting relationship with our clients by providing
+                            them
+                            with honest and reliable services.</p>
+                        <img src="images/img4.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- 
+
+    End of our story
+
+ -->
 
     <div class="advertise-banner">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -236,6 +219,96 @@
             End of Rent Advertizing Banner
         
         -->
+
+
+    <!-- 
+
+            Our Mission
+
+         -->
+
+
+    <div class="mission">
+        <section>
+            <div class="container">
+                <p class="header"> Our Mission</p>
+                <hr>
+
+                <div class="flex">
+                    <p style="text-align: justify; width: 500px;">
+                        Our realtor&#39;s company is dedicated to providing exceptional services to our clients. We
+                        believe
+                        in building long-lasting relationships with our clients by providing them with honest and
+                        transparent services. We understand that buying, selling, or renting a property can be
+                        overwhelming, which is why we aim to make the process as hassle-free as possible.
+                    </p>
+                    <div class="right">
+                        <img src="images/360x300.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- 
+
+            End of our mission
+
+          -->
+
+    <!-- 
+
+            Our Vision
+
+           -->
+
+    <div class="vision">
+        <section style="padding-top: 0;">
+            <div class="container">
+                <p class="header" style="text-align: end;"> Our Vision</p>
+                <hr>
+
+                <div class="flex">
+                    <div class="right">
+                        <img src="images/360x300.jpg" alt="">
+                    </div>
+                    <p style="text-align: justify; width: 500px;">
+                        Soon, we aim to provide clients with digital services that can be accessed effortlessly. While
+                        constantly expanding our network, we aim to make your search boy buyers/sellers easier and
+                        quicker. Our team of experts is passionate about delivering exceptional services and also we
+                        believe that our success lies in our ability to provide our clients with the best possible value
+                        for
+                        their investment.
+                    </p>
+
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- 
+
+            End of advertising banner
+
+          -->
+
+    <!-- 
+
+            Advertisinf banner
+
+           -->
+
+
+    <div class="advertise-banner">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <button>Contact Us</button>
+    </div>
+
+    <!-- 
+            
+                End of Rent Advertizing Banner
+            
+            -->
 
 
     <!-- 
